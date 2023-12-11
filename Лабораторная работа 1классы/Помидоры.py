@@ -38,6 +38,7 @@ class TomatoGrowing:
         >>> tomatoes = TomatoGrowing("Черри", 50, 10.0)
         >>> tomatoes.add_additional_area(5.0)
         """
+        ...
 
     def harvest_tomatoes(self, harvested_count: int) -> None:
         """
@@ -49,6 +50,7 @@ class TomatoGrowing:
         >>> tomatoes = TomatoGrowing("Черри", 50, 10.0)
         >>> tomatoes.harvest_tomatoes(10)
         """
+        ...
 
 if __name__ == "__main__":
     doctest.testmod()
